@@ -1,2 +1,6 @@
-# web-340
-Web-340 class at Bellevue University - Node.js
+# web-230
+Node.js 
+
+#contributors
+Professor Krasso - Bellevue University
+Andrew Weilbacher - Bellevue University
