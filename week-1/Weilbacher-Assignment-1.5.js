@@ -39,6 +39,6 @@ var body = "Hello World";
 
 var s = http.createServer(processRequest);
 
-s.listen(8080);
+s.listen(3000);
 
 // end program
