@@ -1,0 +1,9 @@
+{
+  "name": "hello-world",
+  "author": "Andrew Weilbacher",
+  "private": true,
+  "dependencies": {
+    "curl": "^0.1.4",
+    "express": "^4.17.1"
+  }
+}
