@@ -1,0 +1,10 @@
+{
+  "name": "hello-world",
+  "author": "Professor Krasso",
+  "private": true,
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}
