@@ -10,7 +10,7 @@ app.set("views", path.resolve(__dirname, "views"));
 
 app.set("view engine", "ejs");
 
-var f = [
+var p = [
 
   "Andrew",
 
@@ -27,7 +27,7 @@ app.get("/", function(request, response) {
 
     response.render("index", {
 
-        fruits: f
+       people: p
 
     })
 

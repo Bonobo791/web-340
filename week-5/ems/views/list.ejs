@@ -1,0 +1,37 @@
+<% include C:\Users\aweilbacher\Documents\Bellevue\web-340\week-5\ems\views/header %>
+<% include C:\Users\aweilbacher\Documents\Bellevue\web-340\week-5\ems\views/navbar %>
+
+<div id="tabs">
+    <ul class="nav nav-tabs">
+        <li class="active">
+            <a class="nav-link" href="#tabs-1">Employee 1</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#tabs-2">Employee 2</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#tabs-3">Employee 3</a>
+        </li>
+    </ul>
+    <div id="tabs-1">
+            <h2>Employee 1</h2>
+            <% for (var k = 0; k < Employee1.length; k++) { %>
+                <a class="alert alert-success" role="alert"><strong><p><%= Employee1[k] %></p></strong></a>
+            <% } %>
+    </div>
+        <div id="tabs-2">
+            <h2>Employee 2</h2>
+                <% for (var k = 0; k < Employee2.length; k++) { %>
+                    <a class="alert alert-success" role="alert"><strong><p><%= Employee2[k] %></p></strong></a>
+                <% } %>
+        </div>
+        <div id="tabs-3">
+            <h2>Employee 3</h2>
+                <% for (var k = 0; k < Employee3.length; k++) { %>
+                    <a class="alert alert-success" role="alert"><strong><p><%= Employee3[k] %></p></strong></a>
+                <% } %>
+        </div>
+</div>
+
+<% include C:\Users\aweilbacher\Documents\Bellevue\web-340\week-5\ems\views/footer %>
+<% include C:\Users\aweilbacher\Documents\Bellevue\web-340\week-5\ems\views/scripts %>
