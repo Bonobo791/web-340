@@ -9,14 +9,20 @@
         "ejs": "^2.7.1",
         "express": "^4.17.1",
         "helmet": "^3.21.1",
+        "heroku": "^7.33.1",
         "mongoose": "^5.7.1",
         "morgan": "^1.9.1",
         "nodemon": "^1.18.11"
     },
     "scripts": {
-        "start": "node app.js"
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "keywords": [
+        "example",
+        "heroku"
+    ],
     "engines": {
-        "node": "10.15.0"
+        "node": "12.6.0"
     }
 }

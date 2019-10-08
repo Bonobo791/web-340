@@ -41,7 +41,7 @@ var csrfProtection = csrf({
 //setting view engine
 app.set("views", path.resolve(__dirname, "views"));
 app.set("view engine", "ejs");
-app.set('port', process.env.PORT || 8080);
+app.set(“port”, process.env.PORT || 8080);
 
 //use statements
 app.use(logger("short"));
@@ -144,4 +144,4 @@ app.get("/view/:queryName", function (req, res) {
 
 
 //creating node web server
-http.createServer(app).listen(app.get("port"), function() { console.log("Application started on port " + app.get("port")) });
+http.createServer(app).listen(app.get(“port”), function() { console.log(“Application started on port “ + app.get(“port”)) });
